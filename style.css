@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap:5px;
+}
+.navlinks{
+    border:1px solid white;
+    width:40%;
+    height:inherit;
+    display:flex;
+    justify-content: space-around;
+    gap:5px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff3f6c;
+    padding: 0px 50px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    margin-left: 20px;
+}
+.search-bar input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+}
+.search-bar button {
+    padding: 8px 5px;
+    border: none;
+    background-color: #ff3f6c;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+.user-options  {
+    padding: 0px 13px;
+    color: #333;
+    margin: 0 15px;
+    cursor: pointer;
+    letter-spacing: 0px;
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+    gap: 20px;
+    justify-content: space-around;
+}
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-item i {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 5px;
+}
+.icon-item p {
+    margin: 0;
+    font-size: 14px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    background-color:white;
+}
+.items-section {
+    padding: 80px 20px;
+    background-color: #f0f0f0;
+}
+.items-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.item-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+}
+.item-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+.item-grids {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 10px;
+}
+.Cart h1{
+    font-family: "Lucida Handwriting", cursive;
+    color: maroon;
+}
+.Cart{
+    font-family: 'Brush Script MT';
+    font-size: 40px;
+    color:black;
+}
+.app-icons img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.social-icons a img {
+    width: 40px;
+    margin-right: 10px;
+}
+.info-box {
+    text-align: left;
+    margin-top: 20px;
+}
+.info-box p {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #333;
+}
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.box {
+    border-radius: 10px;
+    height: 410px;
+    width: 23%;
+    background-color: white;
+    padding: 15px 0px 15px;
+    margin-top: 25px;
+}
+.box-img {
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+    font-size: 14px;
+}
+footer {
+    margin-top: 15px;
+    text-align: center; 
+  }
+  
+  .foot-panel1 {
+    background-color:lightgray;
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 0.85rem;
+    text-align: center;
+    width: 1200px;
+    flex-wrap: wrap;
+  }
+  .foot-panel2{
+    padding-top: 50px;
+    background-color:lightgray;
+    width:1200px;
+    height:300px;
+  justify-content: space-evenly;
+  display: flex;
+  color: black;
+  }
+  .app-icons img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px; 
+  }
+  .social-icons .icon {
+    font-size: 30px; 
+    color: black; 
+    text-decoration: none; 
+  }
+  .social-icons .icon:hover {
+    color: black; 
+  }
+  ul a
+  {
+    display: block;
+    font-size: 0.85 rem;
+    margin-top: 10px;
+  }
+  ul p
+  {
+    font-weight: 700;
+  }
+  .service_p{
+    margin-bottom: 30px;
+    margin-left:50px;
+  }
